@@ -2,6 +2,7 @@
   "name": "react-template",
   "version": "0.0.1",
   "private": false,
+  "homepage": "https://oyhpnayiaw-as-micronaut.github.io/math-magicians/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -17,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "linters": "eslint \"**/*.{js,jsx}\" && stylelint \"**/*.{css,scss}\"",
-    "deploy:gh-pages": "gh-pages -d build"
+    "deploy:gh-pages": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

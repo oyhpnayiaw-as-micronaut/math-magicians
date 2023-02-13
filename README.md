@@ -54,9 +54,7 @@ React.js
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo](https://oyhpnayiaw-as-micronaut.github.io/leaderboard/) -->
-
-Coming soon
+- [Live Demo](https://oyhpnayiaw-as-micronaut.github.io/math-magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,17 +104,21 @@ npm run linters
 
 Coming soon
 
-<!-- #### Deploy to gh-pages
+#### Deploy to gh-pages
 
-- Run following script to deploy into GitHub Pages.
+- To host app in the GitHub Pages.
+
+**First replace with you github information on `package.json` homepage config.**
+
+And then run the following command.
 
 ```sh
-npm run deploy
+npm run deploy:gh-pages
 ```
 
 #### Deploy to own server
 
-Run `npm run build` and then upload the `dist` folder into your server. -->
+Run `npm run build` and then upload the `build` folder into your server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
