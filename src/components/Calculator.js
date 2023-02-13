@@ -29,7 +29,12 @@ class Calculator extends React.Component {
     return (
       <div className="calculator">
         <div className="calculator-inner">
-          <input type="text" placeholder="0" className="calculator-input" />
+          <input
+            type="text"
+            placeholder="0"
+            className="calculator-input"
+            disabled
+          />
           {buttons.map((button) => (
             <button key={button} type="button" className="calculator-button">
               {button}
