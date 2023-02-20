@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding: 0 8px;
+}
+
+.nav-link.active {
+  color: #f5913e;
+}
