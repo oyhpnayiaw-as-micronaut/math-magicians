@@ -2,7 +2,6 @@
   "name": "react-template",
   "version": "0.0.1",
   "private": false,
-  "homepage": "https://oyhpnayiaw-as-micronaut.github.io/math-magicians/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
