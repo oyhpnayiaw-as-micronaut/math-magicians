@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/math-magicians/static/css/main.4939ed97.css",
-    "main.js": "/math-magicians/static/js/main.6c50e693.js",
+    "main.css": "/math-magicians/static/css/main.0aa13e0c.css",
+    "main.js": "/math-magicians/static/js/main.06e8f745.js",
     "index.html": "/math-magicians/index.html"
   },
   "entrypoints": [
-    "static/css/main.4939ed97.css",
-    "static/js/main.6c50e693.js"
+    "static/css/main.0aa13e0c.css",
+    "static/js/main.06e8f745.js"
   ]
 }
