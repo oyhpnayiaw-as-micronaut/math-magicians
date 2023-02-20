@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import './Calculator.css';
+import 'styles/Calculator.css';
 
-import calculate from '../logic/calculate';
+import calculate from 'logic/calculate';
 
 const buttons = [
   'AC',
@@ -26,7 +26,7 @@ const buttons = [
   '=',
 ];
 
-const Calculator = () => {
+const CalculatorComponent = () => {
   const [state, setState] = useState({
     total: null,
     next: null,
@@ -77,4 +77,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default CalculatorComponent;
